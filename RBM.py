@@ -141,10 +141,10 @@ print(min(errors))
 
 
 x_test= np.random.randint(2, size=(580000,36))
-num=50
+num=100
 
 for i in range(num):
     x_test=rbm.reconstruct(x_test)
 
 
-np.save('RBM_6lat_T=3.5_600k50',x_test)
+np.save('RBM_6lat_T=3.5_600k',x_test)
