@@ -128,7 +128,7 @@ for epoch in range(1, num_epochs+1):
         #    rbm.update_params(lr, momentum=0.3)
         #else:
         #    rbm.update_params(lr, momentum=0.9)
-        rbm.update_params(lr)
+        rbm.update_params(lr) #Without using momentum with a fixed learning rate
 
     print("epoch:{} \t error:{:.4f} \t training time:{:.2f} s".format(epoch, error, time()-start_time))
     errors.append(error)
