@@ -84,7 +84,7 @@ class RBM():
 
 
 batch_size = 50
-num_epochs = 13000
+num_epochs = 15000
 lr = 0.0001
 num_steps = 1
 
